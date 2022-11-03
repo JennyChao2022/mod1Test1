@@ -1,0 +1,18 @@
+table{
+    margin: 150px auto;
+    border:10px solid black;
+    border-collapse: collapse;
+}
+
+td,th {
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bold;
+    border:3px solid black;   
+}
+
+.First-Table{
+    border-style: none;
+}
