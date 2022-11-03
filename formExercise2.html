@@ -21,9 +21,21 @@
         <input type="text" id="Zip" name="Zip" ><br>
 
         <label for="Magazine">Magazine:</label>
-        <input type="text" id="Magazine" name="Magazine" value="Newsweek" ><br>
+            <select name="MAGAZINE">
+            <option value="Newsweek">Newsweek
+            </option><option value="Time">Time
+            </option><option value="Fortune">Fortune
+            </option><option value="TVGuide">TV Guide
+            </option><option value="WomansDay">Woman's Day
+            </option></select>  <br>
+
+        <label for="Subscription">Subscription:</label>
+        <input type="radio"  name="Subscription" value="1yr" checked>1 Year
+        <input type="radio" id="Subscription" name="Subscription" value="2yr">2 Years<br>
+
 
         <input type="submit" value="Send Your Order">
     </form>
 </body>
 </html>
+
